@@ -1,0 +1,11 @@
+@back Location2
+NPC2.Default: Привет,Какими судьбами?
+Player.Default: Я пришел с прозьбой, можешь дать мне редкий артефакт для NPC1?
+NPC2.Default: Да, если сможешь пройти задание?
+@choice "Пройти задание" set:Quest=3
+@choice "Отказатся!" set:Quest=2; goto:Map
+@if Quest==3
+	@loadScene MiniGame
+@endIf
+
+@stop

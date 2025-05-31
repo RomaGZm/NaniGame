@@ -1,0 +1,6 @@
+#Map
+@hideAll wait:1
+@back Map time:0
+@choice "Перейти к NPC2" goto:NPC2Scene
+@choice "Перейти к NPC1" goto:Scene1
+@stop

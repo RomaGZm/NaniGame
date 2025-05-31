@@ -1,0 +1,7 @@
+@back Title time:0
+@showUI ScoreUI
+@addScore value:10
+@input PlayerName summary:"Как тебя зовут?"
+@stop
+@set Quest=0
+@goto Scene1

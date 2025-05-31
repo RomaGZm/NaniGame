@@ -144,13 +144,67 @@ MonoBehaviour:
     - name: ScriptNavigatorUI
       pathPrefix: UI
       guid: 735d6aa767879aa469134858c5b2f0a7
+    - name: ScoreUI
+      pathPrefix: UI
+      guid: de78a49f65b826f48ac9ca5e30bee055
+    - name: MapButton
+      pathPrefix: UI
+      guid: 79f55ed79265d7c43a35f8b308c9bfc0
   - Id: Scripts
     Resources:
     - name: NewScript
       pathPrefix: Scripts
       guid: 3e322b52134c62243946445454f1402f
-    - name: Main
+    - name: NameSelection
       pathPrefix: Scripts
-      guid: 0b9c60a90177e4446bec985dba40e2db
+      guid: 88993934d24008249933f16fb3d5ebff
+    - name: Scene1
+      pathPrefix: Scripts
+      guid: f1e7dc30ac0ed7e47b3152cce4a7bf16
+    - name: Map
+      pathPrefix: Scripts
+      guid: f4c92ebce3afac7429db91e430ab6f2b
+    - name: NPC2Scene
+      pathPrefix: Scripts
+      guid: d7ec0534435e4e940aa4156cb77eb168
   - Id: Characters/df69bf0e-41ae-4ef4-9f57-59bd966416e7
-    Resources: []
+    Resources:
+    - name: Default
+      pathPrefix: Characters/Player
+      guid: d9d1076aa0c91344ebfbc40c12a94526
+  - Id: Characters/a8db7c27-834e-411b-ab8b-987ae639e6ad
+    Resources:
+    - name: Default
+      pathPrefix: Characters/NPC1
+      guid: 79819671c5bc204429931a62d325df14
+    - name: Happy
+      pathPrefix: Characters/NPC1
+      guid: 4aeb614a1869a9845ba0ae76e927fcb0
+    - name: Angry
+      pathPrefix: Characters/NPC1
+      guid: 2bd041aacdc1866478f52544a59f3ae5
+  - Id: Characters/f846a808-de43-44df-9a2c-915f227f646f
+    Resources:
+    - name: Default
+      pathPrefix: Characters/NPC2
+      guid: 42925c6d2ce905a4f8658dd29f9c20ca
+    - name: Happy
+      pathPrefix: Characters/NPC2
+      guid: 21e3a0b4137d13040a83572e0eaf92e7
+    - name: Angry
+      pathPrefix: Characters/NPC2
+      guid: c0bc5d2a06ea6fa4d889b90ee95a9fa4
+  - Id: Backgrounds/9be80e9b-7d9c-4471-8e02-b9a06626c6db
+    Resources:
+    - name: Title
+      pathPrefix: Backgrounds/MainBackground
+      guid: 678a38a7fb81ade44ba5901b6db1903d
+    - name: Location1
+      pathPrefix: Backgrounds/MainBackground
+      guid: ee85d767b7abd7c4a892d60ca5759250
+    - name: Location2
+      pathPrefix: Backgrounds/MainBackground
+      guid: ee85d767b7abd7c4a892d60ca5759250
+    - name: Map
+      pathPrefix: Backgrounds/MainBackground
+      guid: 6aaab6d5a680a124fa62f25ad9a8a18f
