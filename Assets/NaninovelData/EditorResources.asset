@@ -150,11 +150,11 @@ MonoBehaviour:
     - name: MapButton
       pathPrefix: UI
       guid: 79f55ed79265d7c43a35f8b308c9bfc0
+    - name: MiniGame
+      pathPrefix: UI
+      guid: 2fa3c85fc15024346a53ed21fff0dc16
   - Id: Scripts
     Resources:
-    - name: NewScript
-      pathPrefix: Scripts
-      guid: 3e322b52134c62243946445454f1402f
     - name: NameSelection
       pathPrefix: Scripts
       guid: 88993934d24008249933f16fb3d5ebff
@@ -167,6 +167,9 @@ MonoBehaviour:
     - name: NPC2Scene
       pathPrefix: Scripts
       guid: d7ec0534435e4e940aa4156cb77eb168
+    - name: OpenMiniGame
+      pathPrefix: Scripts
+      guid: 835ffd2b2c4b7d14fbeb2031c336e051
   - Id: Characters/df69bf0e-41ae-4ef4-9f57-59bd966416e7
     Resources:
     - name: Default
@@ -208,3 +211,11 @@ MonoBehaviour:
     - name: Map
       pathPrefix: Backgrounds/MainBackground
       guid: 6aaab6d5a680a124fa62f25ad9a8a18f
+    - name: Complete
+      pathPrefix: Backgrounds/MainBackground
+      guid: 32e1d414d02773e45972a4b7ff8fdc95
+  - Id: Audio
+    Resources:
+    - name: 
+      pathPrefix: Audio
+      guid: 

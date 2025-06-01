@@ -2,17 +2,23 @@
 	NPC1.Default: Привет, {PlayerName}! Как у тебя дела?
 	Player.Default: Привет. Все хорошо, решила прогулятся.
 @print "Ясно. Послушай, не могла бы ты сходить к NPC2? и взять у него редкий артефакт." author:NPC1 waitInput:false
-@choice "Согласится на просьбу NPC1" set:Quest=2 goto:Map 
-@choice "Вернутся к разговору позже" set:Quest=1 goto:Map 
+@choice "Согласится на просьбу NPC1" goto:Map set:Quest=2
+@choice "Вернутся к разговору позже" goto:Map set:Quest=1
 @stop
 @endIf
 @if Quest==1
 @print "Ты согласна?" author:NPC1 waitInput:false
-@choice "Согласится на просьбу NPC1"  set:Quest=2 goto:Map
-@choice "Вернутся к разговору позже" set:Quest=1 goto:Map
+@choice "Согласится на просьбу NPC1" goto:Map set:Quest=2
+@choice "Вернутся к разговору позже" goto:Map set:Quest=1
 @stop
 @else
 Player.Default: Сейчас мне нечего тут делать. Нужно сходить в другую локацию!
 @goto Map
 @endIf
-
+#game_complete
+@back Complete
+NPC1.Default: Привет, ты принесла мне артефакт?
+Player.Default: Да!
+@addScore value:100
+Игра пройдена, вам начисленно 100 очков!!
+@stop
