@@ -1,9 +1,1 @@
 ; Russian <ru> to Russian <ru> localization document for `Map` naninovel script
-
-# ~2d799c1
-; Перейти к NPC2
-
-
-# ~749e8c97
-; Перейти к NPC1
-

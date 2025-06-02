@@ -1,3 +1,5 @@
+@hideUI MapButtons
+@hideAll
 @back Location2
 NPC2.Default: Привет,Какими судьбами?
 Player.Default: Я пришел с прозьбой, можешь дать мне редкий артефакт для NPC1?

@@ -147,7 +147,7 @@ MonoBehaviour:
     - name: ScoreUI
       pathPrefix: UI
       guid: de78a49f65b826f48ac9ca5e30bee055
-    - name: MapButton
+    - name: MapButtons
       pathPrefix: UI
       guid: 79f55ed79265d7c43a35f8b308c9bfc0
     - name: MiniGame
@@ -167,9 +167,6 @@ MonoBehaviour:
     - name: NPC2Scene
       pathPrefix: Scripts
       guid: d7ec0534435e4e940aa4156cb77eb168
-    - name: OpenMiniGame
-      pathPrefix: Scripts
-      guid: 835ffd2b2c4b7d14fbeb2031c336e051
   - Id: Characters/df69bf0e-41ae-4ef4-9f57-59bd966416e7
     Resources:
     - name: Default

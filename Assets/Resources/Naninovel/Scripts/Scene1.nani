@@ -1,9 +1,12 @@
+@hideUI MapButtons
+@hideAll
+@back Location1
 @if Quest==0
 	NPC1.Default: Привет, {PlayerName}! Как у тебя дела?
 	Player.Default: Привет. Все хорошо, решила прогулятся.
 @print "Ясно. Послушай, не могла бы ты сходить к NPC2? и взять у него редкий артефакт." author:NPC1 waitInput:false
 @choice "Согласится на просьбу NPC1" goto:Map set:Quest=2
-@choice "Вернутся к разговору позже" goto:Map set:Quest=1
+@choice "Вернутся к разговору позже" goto:Scene1 set:Quest=1
 @stop
 @endIf
 @if Quest==1
